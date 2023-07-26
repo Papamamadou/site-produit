@@ -5,8 +5,8 @@
 }
 .container{
     border: solid red 2px;
-    height: 100vh;
-    
+    height: 120vh;
+
 }
 h1{
     font-family: Arial, Helvetica, sans-serif;
@@ -88,24 +88,49 @@ span{
 }
 .item-down{
     border: solid rgb(12, 205, 64) 2px;
-    height: 40vh;
-    display: flex; 
+    height: 62vh;
+    display: flex;
     align-items: center;
     gap: 26px;
     justify-content: center;
 }
 .perso{
-    width: 30vh;
-    height:30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     background-color: rgb(91, 13, 80);
     border-radius: 10px;
+    height: 40vh;
+    width: 25vw;
+    color: white;
+    padding: 14px;
 }
-.perso p,h3{
+/*.perso p,h3{
     text-align: center;
     color: white;
+}*/
+.avatar{
+    position: relative;
+    right: 40px;
+
+}
+.avatar img{
+    height: 50px;
+    width: 50px;
 }
 h5{
     color: rgb(180, 86, 167);
     text-align: center;
     
+}
+.titled-name{
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;   
+}
+.titles{
+    border: 2px solid wheat;
+}
+.discription{
+
 }
