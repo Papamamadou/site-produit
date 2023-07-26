@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: solid red 2px;
+    height: 100vh;
+    
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(91, 13, 80);
+    font-weight: 10em;
+    
+}
+.item-top{
+    border: solid rgb(12, 205, 64) 2px;
+    height: 50vh;
+    display: flex; 
+    align-items: center;
+    gap: 26px;
+    justify-content: center;
+
+}
+.title{
+    width: 240px;
+    height: 110px;
+}
+.pgraph{
+    width: 27rem;
+    color: rgb(91, 13, 80);
+    opacity: 70%;
+}
+
+.hnp{
+    border: dotted rgb(5, 5, 0) 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 15em;
+}
+.list{
+    border: dotted rgb(5, 5, 0) 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 15em;
+    width: 20rem;
+}
+li {
+    list-style: none;
+    font-size: 20px;
+    border: 2px solid rgb(253, 246, 253);
+    color: rgb(91, 13, 80);
+   
+    
+}
+.divlist{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 240px;
+    height: 110px;
+
+}
+.divlist li{
+    background-color: rgb(253, 246, 253);
+}
+.item-down{
+    border: solid rgb(12, 205, 64) 2px;
+    height: 40vh;
+    display: flex; 
+    align-items: center;
+    gap: 26px;
+    justify-content: center;
+}
+.perso{
+    width: 30vh;
+    height:30vh;
+    background-color: rgb(91, 13, 80);
+    border-radius: 10px;
+}
+.perso p,h3{
+    text-align: center;
+    color: white;
+}
+h5{
+    color: rgb(180, 86, 167);
+    text-align: center;
+    
+}
